@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 49th Birthday Mummy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" src="meri-maa.mp3" autoplay loop></audio>
+
+  <!-- Opening Card -->
+  <section class="card">
+    <h1>Happy 49th Birthday Mummy</h1>
+    <p>
+      To the most special woman in my life,<br>
+      to the woman who means everything to me.
+    </p>
+  </section>
+
+  <!-- Photo Slideshow -->
+  <section class="slideshow">
+    <img id="slide" src="1.jpg" alt="Memories">
+  </section>
+
+  <!-- Ending Message -->
+  <section class="ending">
+    <p>
+      Thank you for always being there in my highs as well as my lows,<br>
+      when I’ve needed you the most,<br>
+      and for always being this supportive in all of our lives.
+    </p>
+    <span class="heart">🤍</span>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

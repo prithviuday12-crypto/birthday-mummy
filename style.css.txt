@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+body {
+  background: #faf7f4;
+  color: #3a2e2a;
+  text-align: center;
+}
+
+/* Opening Card */
+.card {
+  padding: 60px 20px;
+  background: #fff;
+  margin: 30px auto;
+  max-width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Slideshow */
+.slideshow {
+  margin: 40px auto;
+  max-width: 90%;
+}
+
+.slideshow img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  transition: opacity 1s ease-in-out;
+}
+
+/* Ending Message */
+.ending {
+  padding: 50px 20px 70px;
+}
+
+.ending p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: auto;
+}
+
+.heart {
+  font-size: 2rem;
+  display: block;
+  margin-top: 20px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .card h1 {
+    font-size: 1.8rem;
+  }
+
+  .card p,
+  .ending p {
+    font-size: 1rem;
+  }
+}
